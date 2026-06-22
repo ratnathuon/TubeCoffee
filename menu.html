@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About</title>
+    <link rel="icon" type="image/x-icon" href="./img/tubecoffee.jpg">
+    <link rel="stylesheet" href="./dist/output.css" />
+		<link
+			rel="stylesheet"	
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+</head>
+<body >
+	<!-- Navbar -->
+		<nav class="sticky top-4 z-50 mx-4 mt-4 rounded-[28px] border border-slate-200 bg-white/80 px-4 py-4 shadow-xl backdrop-blur-xl md:mx-8 lg:mx-16">
+			<div class="mx-auto flex max-w-7xl flex-col gap-4 md:flex-row md:items-center md:justify-between">
+				<div class="flex items-center justify-between">
+					<a href="/" class="flex items-center gap-3 text-black no-underline">
+						<img src="./img/tubecoffee.jpg" alt="Coffee Logo" class="h-16 w-auto rounded-3xl border border-slate-200 shadow-sm" />
+						<span class="text-xl font-bold tracking-wide">Tube Coffee</span>
+					</a>
+					<button id="nav-toggle" aria-label="Toggle navigation" class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-slate-700 transition hover:bg-yellow-300 md:hidden">
+						<i class="fa-solid fa-bars"></i>
+					</button>
+				</div>
+				<div id="nav-menu" class="hidden flex-col gap-3 text-sm font-semibold md:flex md:flex-row md:items-center md:justify-center lg:gap-6">
+					<a href="/" class="hover:bg-yellow-300 hover:underline rounded-xl px-4 py-2">Home</a>
+					<a href="#menu" class="hover:bg-yellow-300 hover:underline rounded-xl px-4 py-2">Menu</a>
+					<a href="about.html" class="hover:bg-yellow-300 hover:underline rounded-xl px-4 py-2">About</a>
+
+				</div>
+				<button class="w-full md:w-auto rounded-2xl bg-slate-100 px-6 py-3 text-sm font-semibold transition hover:bg-yellow-300 md:ml-4">
+					Sign In
+				</button>
+			</div>
+		</nav>
+	<!-- Menu -->
+		<div class="flex flex-col items-center gap-10 mx-auto max-w-7xl px-6 md:px-12">
+			<h2 id="menu"class="text-4xl font-bold mb-4">Our Menu</h2>
+			<!-- Signature Drinks -->
+			<h3 class="text-2xl font-bold">Signature Drinks</h3>
+			
+				<div class=" bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 max-w-[40rem] flex-col gap-6 lg:flex-row hover:scale-105 transition-all">
+					<div class="flex justify-between">
+						<p class="text-lg font-bold ">$2.43</p>
+						<p class="fa-solid fa-fire flex text-orange-400 text-xl"></p>
+					</div>
+					<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/9488f6ac5fb20c039d7f257ab1cd97d0.jpg?width=600" alt="Iced Thnol Coffee" class="w-full h-auto object-cover rounded-xl" />
+					<div class="flex flex-col gap-4 items-center justify-center">
+						<h3 class="text-xl font-bold mt-4">Iced Thnol Coffee</h3>
+						<p class="text-sm mt-2 font-sans">Iced Thnol Coffee is an iced milk coffee and a Cambodian flavor, rich aroma, sweet and creamy taste, unforgettable.</p>
+					</div>
+				</div>
+			<!-- Iced Coffee -->
+			<h3 class="text-2xl font-bold ">Iced Coffee</h3>
+				<div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full">
+				<div class="gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<div class="flex items-center justify-between">
+							<p class="text-lg font-bold ">$2.07</p>
+							<p class="fa-solid fa-fire flex text-orange-400 text-xl"></p>
+						</div>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/9ea606bb87f4d74972e8136bd09b6b29.jpg?width=600" alt="Iced Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Americano</h3>
+
+					</div>
+				</div>
+
+				<div class=" gap-6 ">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/a8f96b4f319d1c6dc3b7150d5c094e41.jpg?width=800" alt="Iced Thnol Coffee" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Coconut Cream Latte</h3>
+						
+					</div>
+				</div>
+
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<div class="flex items-center justify-between">
+							<p class="text-lg font-bold ">$2.07</p>
+							<p class="fa-solid fa-fire flex text-orange-400 text-xl"></p>
+						</div>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/cd2fdf2981e9a4456f638548ca2dfda4.jpg?width=600" alt="Iced Latte" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Latte</h3>
+						
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/8b4479caa709a4a4e2dbfdf8201d08ea.jpg?width=800" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Cappuccino</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/b54bbca260d191c4e8413899335418fb.jpg?width=800" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Mocha</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/375a2108a8288219159b3a2f85175d9c.jpg?width=800" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Caramel Macchiato</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/a6bbb7c47345ca9fa765571220c1e0fa.jpg?width=800" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Vanilla Latte</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/0e240453716e07627b7428bf7a03528f.jpg?width=800" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Caramel Latte</h3>
+					</div>
+				</div>
+			</div>
+			<!-- Hot Coffee -->
+			 <h3 class="text-2xl font-bold ">Hot Coffee</h3>
+				<div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full">
+				<div class="gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$1.95</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/889d849f2f1f2b413100480a348fbb67.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Espresso</h3>
+					</div>
+				</div>
+
+				<div class=" gap-6 ">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/4e376659a8e81c58b42e9baa8b7a1139.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Hot Matcha Latte</h3>
+					</div>
+				</div>
+
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.07</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/9cbe4b7ec85eb9e4abd67f83c08ec134.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Hot Americano</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/8ff09ba997959adb4d60f43a29f52d8d.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Hot Latte</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/2756f09083d7e97007eb485ecdf47b46.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Hot Cappuccino</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/8f7f2caf185c71c6c6f229f0c5b9990b.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Hot Mocha</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.80</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/d292b75c00481078f56c8d87dc83330c.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Hot Caramel Latte</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.80</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/aa5e56dbe0dec00fad069c062b5c7ce3.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Hot Vanilla Latte</h3>
+					</div>
+				</div>
+			</div>
+			<!-- Milk, Tea & Juice -->
+			 <h3 class="text-2xl font-bold ">Milk, Tea & Juice</h3>
+				<div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full">
+				<div class="gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/912019cf8f3a3d5948752f1aa9c63f84.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Matcha Cream</h3>
+					</div>
+				</div>
+
+				<div class=" gap-6 ">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/949bf108501d7b0b0280020382fd5a93.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Iced Matcha Latte</h3>
+					</div>
+				</div>
+
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/ec9d0b71e97cf5ccc83fd250166e0c25.jpeg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Pink Berry Latte</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/2f646f1cce69ad071aac51511dbb0bac.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Honey Yuzu Soda</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/98b37a9e72a93a61d963537d49c6f8d3.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Green Milk Tea</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<div class="flex items-center justify-between">
+							<p class="text-lg font-bold ">$2.07</p>
+							<p class="fa-solid fa-fire flex text-orange-400 text-xl"></p>
+						</div>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/42d0b75d8ad599384b6f9c0e07ef9fe8.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Fresh Passion Cream</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/4efd0458c2635301e9a3a118565fac5c.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Rose Lychee Soda</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/6f1df040dcb6289fbd2cd988755399f5.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Lychee Tea</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/1aec9472e1812f83a84aadfe37734fd7.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Fresh Passion Juice</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/fe40c4126c8a13ed81fb3d53d5c55196.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-lg font-bold mt-4">Wildberry Raspberry Tea</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/1020630f6bbb7706bf8ddd28c0edcaa2.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Honey Lime Tea</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.43</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/d4da68cc8026a04a174739ea7eea6f9d.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Chocolate Milk</h3>
+					</div>
+				</div>
+			</div>
+			<!-- Frappe -->
+			 <h3 id="frappe" class="text-2xl font-bold ">Frappe</h3>
+				<div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full">
+				<div class="gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/975dea727046aa1965eb98b6fb9fddce.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Caramel Frappe</h3>
+					</div>
+				</div>
+
+				<div class=" gap-6 ">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/178b375e2da59464ca817a95d99e9133.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Avocado Yogurt</h3>
+					</div>
+				</div>
+
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/7cd3c251b559d23d8e9bea730add8ad5.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Thnol Frappe</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/f5a1d65f2f21eeaedf5e2056dfa3865f.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Mocha Chip Frappe</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/0fbd41d7b430a4d915cacbb98cbbfdd5.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Green Milk Tea Frappe</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/56d4bce34f2da3a9ea118124b1904537.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Chocolate Chip Frappe</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/e34f92f0ac2c6a6e4ab33a559f07fe16.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Fresh Passion Frappe</h3>
+					</div>
+				</div>
+				<div class=" gap-6">
+					<div class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-4 w-full hover:scale-105 transition-all">
+						<p class="text-lg font-bold ">$2.99</p>
+						<img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/MONAKOM_KH_ProdChain/783b2cfed326e1bced2b62c2efca25be.jpg?width=600" alt="Americano" class="w-full h-48 sm:h-60 object-cover rounded-xl" />
+						<h3 class="text-xl font-bold mt-4">Vanilla Frappe</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Footer -->
+		<footer class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-6 mt-10 text-center flex items-center justify-center">
+			<div class="flex flex-col md:flex-row items-center w-full justify-between gap-8 px-4 md:px-10">
+			<img src="./img/tubecoffee.jpg" alt="Tube Coffee Logo" class="h-24 md:h-40 w-auto mb-4 " />
+			<div class=" gap-4 mt-2 items-center">
+			<!-- Social Media Links -->
+				<h3 class="text-2xl font-bold">Social Media</h3>
+					<ul class=" flex gap-4 justify-center mt-10">
+						<li>
+							<a href="/" class="text-4xl text-blue-500 hover:text-gray-700 transition-colors fa-brands fa-facebook "></a>
+						</li>
+						<li>
+							<a href="/" class="text-4xl text-pink-500 hover:text-gray-700 transition-colors fa-brands fa-instagram"></a>
+						</li>
+						<li>
+							<a href="/" class="text-4xl text-blue-400 hover:text-gray-700 transition-colors fa-brands fa-telegram"></a>
+						</li>
+					</ul>
+				</div>
+			<!-- Links -->
+			<div class=" gap-4 mt-2 items-center">
+				<h3 class="text-2xl font-bold">Links</h3>
+				<ul class=" gap-4 space-y-2 justify-center mt-10">
+					<li>
+						<a href="/" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Home</a>
+					</li>
+					<li>
+						<a href="/menu" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Menu</a>
+					</li>
+					<li>
+						<a href="/about" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">About</a>
+					</li>
+					<li>
+						<a href="/contact" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- create by -->
+			<div class=" gap-4 mt-2 items-center">
+				<h3 class="text-2xl font-bold">Created by</h3>
+				<ul class=" gap-4 space-y-2 justify-center mt-10">
+					<li>
+						<a href="/" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Ratna Thoun</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+</body>
+</html>
