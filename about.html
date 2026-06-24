@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>About</title>
     <link rel="icon" type="image/x-icon" href="./img/tubecoffee.jpg">
-    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="/src/output.css" />
 		<link
 			rel="stylesheet"	
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -19,7 +19,7 @@
 		<nav class="sticky top-4 z-50 mx-4 mt-4 rounded-[28px] border border-slate-200 bg-white/80 px-4 py-4 shadow-xl backdrop-blur-xl md:mx-8 lg:mx-16">
 			<div class="mx-auto flex max-w-7xl flex-col gap-4 md:flex-row md:items-center md:justify-between">
 				<div class="flex items-center justify-between">
-					<a href="/" class="flex items-center gap-3 text-black no-underline">
+					<a href="index.html" class="flex items-center gap-3 text-black no-underline">
 						<img src="./img/tubecoffee.jpg" alt="Coffee Logo" class="h-16 w-auto rounded-3xl border border-slate-200 shadow-sm" />
 						<span class="text-xl font-bold tracking-wide">Tube Coffee</span>
 					</a>
@@ -27,21 +27,22 @@
 						<i class="fa-solid fa-bars"></i>
 					</button>
 				</div>
-				<div id="nav-menu" class="hidden flex-col gap-3 text-sm font-semibold md:flex md:flex-row md:items-center md:justify-center lg:gap-6">
+				<div id="nav-menu" class="hidden text-center gap-3 text-ml font-semibold md:flex md:flex-row md:items-center md:justify-center lg:gap-6">
 					<a href="index.html" class="hover:bg-yellow-300 hover:underline rounded-xl px-4 py-2">Home</a>
 					<a href="menu.html" class="hover:bg-yellow-300 hover:underline rounded-xl px-4 py-2">Menu</a>
 					<a href="about.html" class="hover:bg-yellow-300 hover:underline rounded-xl px-4 py-2">About</a>
+
 				</div>
 				<button class="w-full md:w-auto rounded-2xl bg-slate-100 px-6 py-3 text-sm font-semibold transition hover:bg-yellow-300 md:ml-4">
 					Sign In
 				</button>
 			</div>
 		</nav>
-
+	<!-- About Us Content -->
 	<div class="p-4 mx-16 md:mx-16 lg:mx-32 mb-10 mt-10">
 		<h1 class="text-4xl font-bold mb-4 text-center mt-5">Welcome to Tube Coffee!</h1>
-		<div class="flex items-center justify-center gap-10 flex-col md:flex-row mt-10">
-			<p class="text-lg leading-relaxed text-center mb-8">
+		<div class="flex items-center justify-center gap-10 flex-col lg:flex-row mt-10">
+			<p class="text-lg leading-relaxed text-center m	b-8">
 				At Tube Coffee, we are passionate about providing our customers with the best coffee experience possible. Our story began in 2017 when three Cambodian coffee-loving youths came together with a dream to establish a coffee brand that truly represents the Khmer people. With a focus on fast service, affordable prices, and high-quality products, we have grown into the leading coffee and food chain in Cambodia, with 43 stores across the country.
 			</p>
 			<img src="./img/about.jpg" alt="story" class="w-full max-w-xl rounded-xl object-cover mb-8" />
@@ -50,15 +51,15 @@
 
 	<div class="p-4 mx-16 md:mx-16 lg:mx-32 mb-10 mt-10">
 		<h1 class="text-4xl font-bold mb-4 text-center mt-5">About Us</h1>
-		<div class="flex items-center justify-center gap-10 flex-col md:flex-row mt-10">
+		<div class="flex items-center justify-center gap-10 flex-col lg:flex-row mt-10">
 			<img src="./img/team.jpg" alt="About Us" class="w-full max-w-xl rounded-xl object-cover mb-8" />
 			<p class="text-lg leading-relaxed text-center mb-8">
 				The story began with 3 Cambodian coffee-lover youths, with coffee brand establishment dream that truly represents Khmer people materializing in 2017 as the first store — a simple but attractive Tube Coffee Kdan Two — being inaugurated. With exceptional emphasis on fast service, affordable price tag, and high-quality products, TUBE COFFEE and TUBE COFFEE + have experienced radical transformation to the leading Khmer people favorite coffee and food chain in Cambodia, indicated by the ever-growing expansion clocking at 43 stores, 8 of which are TUBE COFFEE +.
 			</p>
 		</div>
-	</div>
+	</div> 
 	<h1 class="text-4xl font-bold mb-4 text-center mt-5">Our Team</h1>
-	<!-- About Us Content -->
+	<!-- Our team -->
 	 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-16 md:mx-16 lg:mx-32 mb-10">
 		<div class="flex flex-col items-center justify-center gap-4 bg-yellow-300 p-4 rounded-xl shadow-xl ">
 			<img src="./img/OKNHA KHORN CHHUNDARA.png" alt="Founder Image" class="w-full max-w-3xs rounded-xl shadow-xl object-cover" />
@@ -98,51 +99,54 @@
 		</div>
 	 </div>
 	 <!-- Footer -->
-		 <footer class="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-xl p-6 mt-10 text-center flex items-center justify-center">
-			<div class="flex flex-col md:flex-row items-center w-full justify-between gap-8 px-4 md:px-10">
+		<footer class="flex flex-col md:flex-row items-center w-full justify-between gap-6 md:px-10 mt-10 max-w-7xl mx-auto">
 			<img src="./img/tubecoffee.jpg" alt="Tube Coffee Logo" class="h-24 md:h-40 w-auto mb-4 " />
-			<div class=" gap-4 mt-2 items-center">
+			<div class=" gap-4 mt-2 items-center text-center">
 			<!-- Social Media Links -->
-				<h3 class="text-2xl font-bold">Social Media</h3>
-					<ul class=" flex gap-4 justify-center mt-10">
+				<h3 class="text-xl	">Social Media</h3>
+					<ul class=" flex gap-4 justify-center mt-5">
 						<li>
-							<a href="/" class="text-4xl text-blue-500 hover:text-gray-700 transition-colors fa-brands fa-facebook "></a>
+							<a href="https://www.facebook.com/TubeCoffeeCambodia" class="text-4xl text-blue-500 hover:text-gray-700 transition-colors fa-brands fa-facebook "></a>
 						</li>
 						<li>
-							<a href="/" class="text-4xl text-pink-500 hover:text-gray-700 transition-colors fa-brands fa-instagram"></a>
+							<a href="https://www.instagram.com/tubecoffeecambodia?igsh=Y2dsdjRncjA3ODBw" class="text-4xl text-pink-500 hover:text-gray-700 transition-colors fa-brands fa-instagram"></a>
 						</li>
 						<li>
-							<a href="/" class="text-4xl text-blue-400 hover:text-gray-700 transition-colors fa-brands fa-telegram"></a>
+							<a href="tubecafeinfo@gmail.com" class="text-4xl text-blue-400 hover:text-gray-700 transition-colors fa-brands fa-google"></a>
 						</li>
 					</ul>
 				</div>
 			<!-- Links -->
-			<div class=" gap-4 mt-2 items-center">
-				<h3 class="text-2xl font-bold">Links</h3>
-				<ul class=" gap-4 space-y-2 justify-center mt-10">
+			<div class=" gap-4 mt-2 items-center text-center">
+				<h3 class="text-xl ">Links</h3>
+				<ul class=" gap-4 justify-center ">
 					<li>
-						<a href="/" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Home</a>
+						<a href="index.html" class="text-ml font-sans text-gray-700 hover:text-gray-900 hover:underline transition-colors">Home</a>
 					</li>
 					<li>
-						<a href="/menu" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Menu</a>
+						<a href="menu.html" class="text-ml font-sans text-gray-700 hover:text-gray-900 hover:underline transition-colors">Menu</a>
 					</li>
 					<li>
-						<a href="/about" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">About</a>
-					</li>
-					<li>
-						<a href="/contact" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
+						<a href="about.html" class="text-ml font-sans text-gray-700 hover:text-gray-900 hover:underline transition-colors">About</a>
 					</li>
 				</ul>
 			</div>
 			<!-- create by -->
-			<div class=" gap-4 mt-2 items-center">
+			<div class=" gap-4 mt-2 items-center text-center">
 				<h3 class="text-2xl font-bold">Created by</h3>
-				<ul class=" gap-4 space-y-2 justify-center mt-10">
+				<ul class=" gap-4 mt-5">
 					<li>
-						<a href="/" class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Ratna Thoun</a>
+						<a class="text-xl font-sans text-gray-700 hover:text-gray-900 transition-colors">Ratna Thoun</a>
 					</li>
 				</ul>
 			</div>
 		</footer>
+	<script>
+			const navToggle = document.getElementById('nav-toggle');
+			const navMenu = document.getElementById('nav-menu');
+			navToggle?.addEventListener('click', () => {
+				navMenu?.classList.toggle('hidden');
+			});
+		</script>
 </body>
 </html>
